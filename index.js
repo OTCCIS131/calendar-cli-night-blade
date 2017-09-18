@@ -29,7 +29,7 @@ let year = now.range('year')
               date= chalk.red(date);
               console.log(" ")
             }
-           //return _.padStart(date, 4, '  ' )
+            return _.padStart(date, 2, '0' )
             return _.padEnd(date, 2, ' ' )
         })
 
